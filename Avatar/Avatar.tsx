@@ -17,7 +17,6 @@ import { genConfig } from './utils'
 interface AvatarIF {
     size?: number;
     shape?: 'circle' | 'rounded' | 'square';
-    borderRadius?: number;
     scale?: number; // range: (0, 1] 
     containerStyle?: StyleProp<ViewStyle> | undefined;
     bgColor?: string;
