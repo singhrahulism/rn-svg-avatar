@@ -1,8 +1,8 @@
 import React from 'react'
 import { View, StyleSheet, ViewStyle, StyleProp } from 'react-native'
 
-import Face from '@components/Avatar/Face/Face'
-import Eyebrow from '@components/Avatar/Eyebrow/Eyebrow'
+import Face from './Face/Face'
+import Eyebrow from './Eyebrow/Eyebrow'
 import Ear from './Ear/Ear'
 import Eyes from './Eyes/Eyes'
 import Glasses from './Glasses/Glasses'
