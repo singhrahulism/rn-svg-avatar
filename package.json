@@ -1,0 +1,16 @@
+{
+  "name": "rn-svg-avatar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "chroma-js": "^2.4.2",
+    "react-native-svg": "^15.1.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
