@@ -22,6 +22,7 @@ interface AvatarIF {
     containerStyle?: StyleProp<ViewStyle> | undefined;
     bgColor?: string;
     config?: string | AvatarFullConfig,
+    logSchema?: boolean;
 }
 
 const Avatar: React.FC<AvatarIF> = (props) => {
@@ -33,11 +34,14 @@ const Avatar: React.FC<AvatarIF> = (props) => {
         containerStyle,
         bgColor,
         config,
+        logSchema
     } = props
 
     const schema = genConfig(config)
 
-    console.log("Generated Schema: ", schema)
+    if(logSchema) {
+        console.log("Generated Schema: ", schema)
+    }
 
     const getBorderRadius = () => {
         switch(shape)
