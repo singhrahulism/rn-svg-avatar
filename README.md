@@ -75,7 +75,7 @@ export default HomeScreen ;
 
 ```
 
-![ExampleImage](./Example/example1.png)
+![ExampleImage](https://github.com/singhrahulism/rn-svg-avatar/blob/main/Example/ExampleImage.png)
 
 ## Authors
 
