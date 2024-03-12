@@ -77,7 +77,7 @@ export default HomeScreen ;
 
 ## Authors
 
-* **Rahul Singh** - *Initial work* - [LinkedIn](https://www.linkedin.com/in/singhrahulism/)
+* **Rahul Singh** - [LinkedIn](https://www.linkedin.com/in/singhrahulism/)
 
 ## License
 
