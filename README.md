@@ -1,6 +1,6 @@
 # React Native SVG Avatar
 
-> A React Native Library to render SVG avatars with ease.
+> A React Native package to render SVG avatars with ease.
 > Used [dapi-labs/react-nice-avatar](https://github.com/dapi-labs/react-nice-avatar) for SVG and utility functions.
 
 ## Installation
