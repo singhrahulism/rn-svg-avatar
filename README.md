@@ -63,7 +63,7 @@ import Avatar from 'rn-svg-avatar'
 
 const HomeScreen = () => {
     return <View style={styles.container}>
-        <Avatar config={'someString'} shape={'rounded'} size={160}  />
+        <Avatar config={'someString'} shape={'rounded'} size={160} />
     </View>
 }
 
