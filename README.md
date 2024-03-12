@@ -75,6 +75,8 @@ export default HomeScreen ;
 
 ```
 
+![ExampleImage](./Example/example1.png)
+
 ## Authors
 
 * **Rahul Singh** - [LinkedIn](https://www.linkedin.com/in/singhrahulism/)
