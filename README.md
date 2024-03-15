@@ -93,10 +93,27 @@ export default HomeScreen ;
 | shape | string | square | 'circle', 'rounded', 'square' | change shape of the avatar's root container' |
 | scale | number | 0.8 | a value in the range (0, 1] - excluding 0, including 1 | any numerical value | Scale factor applied to the avatar size. w.r.t to the root container |
 | containerStyle | StyleProp<ViewStyle> | {} | React Native View style | Custom styles for the avatar container. |
-| bgColor | string | *random | Any valid color string | Background color of the avatar's root container |
-| config | string or *this config object | none/random | string or AvatarFullConfig | Configuration for the avatar. |
+| bgColor | string | random | Any valid color string | Background color of the avatar's root container |
+| config | string or ^this config object | none/random | string or AvatarFullConfig | Configuration for the avatar. |
 | logSchema | boolean | false | true/false | Whether to log schema of the avatar to the console |
 
+^AvatarConfig {
+	sex?: Sex,
+	faceColor?: string,
+	earSize?: EarSize,
+	hairColor?: string,
+	hairStyle?: HairStyle,
+	hairColorRandom?: boolean,
+	hatColor?: string,
+	hatStyle?: HatStyle,
+	eyeStyle?: EyeStyle,
+	glassesStyle?: GlassesStyle,
+	noseStyle?: NoseStyle,
+	mouthStyle?: MouthStyle,
+	shirtStyle?: ShirtStyle,
+	shirtColor?: string,
+	bgColor?: string
+}
 
 ## Authors
 

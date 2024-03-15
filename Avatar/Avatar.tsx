@@ -42,7 +42,7 @@ const Avatar: React.FC<AvatarIF> = (props) => {
         console.log("Generated Schema: ", schema)
     }
 
-    const getBorderRadius = () => {
+    const getBorderRadius = (): number => {
         switch(shape)
         {
             case 'circle':
@@ -62,12 +62,19 @@ const Avatar: React.FC<AvatarIF> = (props) => {
         return scale
     }
 
+    const getSize = (): number => {
+        if (size < 0) {
+            return 100
+        }
+        return size
+    }
+
     return (
         <View style={[
             styles.avatarRootContainer,
             {
-                height: size,
-                width: size,
+                height: getSize(),
+                width: getSize(),
                 backgroundColor: bgColor ? bgColor : schema.bgColor,
                 overflow: 'hidden',
                 borderRadius: getBorderRadius(),
