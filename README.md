@@ -97,23 +97,25 @@ export default HomeScreen ;
 | config | string or ^this config object | none/random | string or AvatarFullConfig | Configuration for the avatar. |
 | logSchema | boolean | false | true/false | Whether to log schema of the avatar to the console |
 
+```tsx
 ^AvatarConfig {
-	sex?: Sex,
+	sex?: 'man' | 'woman',
 	faceColor?: string,
-	earSize?: EarSize,
+	earSize?: 'small' | 'big',
 	hairColor?: string,
-	hairStyle?: HairStyle,
+	hairStyle?: 'beanie' |'turban' | 'none',
 	hairColorRandom?: boolean,
-	hatColor?: string,
-	hatStyle?: HatStyle,
-	eyeStyle?: EyeStyle,
-	glassesStyle?: GlassesStyle,
-	noseStyle?: NoseStyle,
-	mouthStyle?: MouthStyle,
-	shirtStyle?: ShirtStyle,
+	hatColor?: 'beanie' |'turban' | 'none',
+	hatStyle?: 'beanie' |'turban' | 'none',
+	eyeStyle?: 'circle' | 'oval' | 'smile',
+	glassesStyle?: 'round' | 'square' | 'none',
+	noseStyle?: 'short' | 'long' | 'round',
+	mouthStyle?: 'laugh' | 'smile' | 'peace',
+	shirtStyle?: 'hoody' | 'short' | 'polo',
 	shirtColor?: string,
 	bgColor?: string
 }
+```
 
 ## Authors
 
