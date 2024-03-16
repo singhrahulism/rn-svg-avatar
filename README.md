@@ -5,10 +5,31 @@
 
 ## Installation
 
-Install from npm
+### Expo Managed App
 
 ```sh
-$ npm i rn-svg-avatar
+$ npm i rn-svg-avatar react-native-svg
+```
+
+### React Native CLI
+
+```sh
+$ npm i rn-svg-avatar react-native-svg react-native-svg-transformer
+```
+
+Uninstall the app from Emulator/Simulator/Physical Device, and rebuild the app:
+
+For Android:
+
+```sh
+$ npx react-native run-android
+```
+
+For iOS:
+
+```sh
+$ cd ios && pod install
+$ npx react-native run-ios
 ```
 
 ## Usage
