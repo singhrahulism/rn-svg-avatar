@@ -1,6 +1,6 @@
 {
   "name": "rn-svg-avatar",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.tsx",
   "scripts": {
@@ -10,7 +10,22 @@
     "chroma-js": "^2.4.2",
     "react-native-svg": "^15.1.0"
   },
-  "keywords": [],
+  "keywords": [
+    "react-native",
+    "svg",
+    "avatars",
+    "svg-avatars",
+    "react",
+    "react-nice-avatar",
+    "avatar-generator",
+    "svg-rendering",
+    "utility-functions",
+    "react-native-components",
+    "custom-avatars",
+    "avatar-creation",
+    "react-native-svg",
+    "dapi-labs"
+  ],
   "author": "",
   "license": "MIT"
 }
